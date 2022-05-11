@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1160px) {
+
+  .Container {
+      display: flex;
+      flex-direction: column;
+    width: 100%;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px solid #fff;
+  }
+
+  .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .row-image {
+      display: flex;
+      align-items: center;
+      width: 20%;
+  }
+
+  .img {
+      
+        width: 30%;
+        margin-right: 3%;
+  }
+
+  .h1 {
+      font-size: 100%;
+  }
+
+  .symbol {
+        width: 20%;
+        text-align: center;
+        font-size: 150%;
+  }
+
+.red {
+    color: #f00606;
+  }
+  
+  .green {
+    color: #11d811;
+  }
+}

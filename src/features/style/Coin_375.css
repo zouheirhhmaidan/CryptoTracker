@@ -1,0 +1,60 @@
+@media only screen and (min-width: 375px) and (max-width: 499px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+      width: 95%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #fff;
+    }
+  
+    .row {
+        display: flex;
+       
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+  
+    .row-image {
+        display: flex;
+    
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .img {
+    
+          width: 50%;
+          margin-right: 3%;
+    }
+  
+    .h1 {
+        font-size: 10px;
+   
+    }
+  
+    .symbol {
+          width: 70%;
+          text-align: center;
+          font-size: 50%;
+    }
+
+    .price {
+       padding-right: 5%;
+    }
+  
+  .red {
+      color: #f00606;
+    }
+    
+    .green {
+      color: #11d811;
+    }
+}
